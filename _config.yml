@@ -1,6 +1,17 @@
-title: Researcher
-url: "https://ankitsultana.com"
-baseurl: "/researcher"
+title: njoverton
+url: "https://njoverton.com/"
+baseurl: "/"
+# Permalink configuration
+permalink: /:title/
+
+# Ensure posts are processed
+future: true
+# Base URL (important if you're hosting on GitHub Pages)
+baseurl: ""
+
+# Site URL (if different from baseurl)
+url: ""
+
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -8,17 +19,17 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
+footer_url: "https://github.com/njoverton"
+footer_text: "Terms and conditions apply."
 
 sass:
     style: compressed
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/researcher/"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
+ - name: "pinboard"
+   link: "/pinboard/"
+ - name: "guestbook"
+   link: "/guestbook/"
+ - name: "about"
+   link: "/about/"
